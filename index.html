@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subpaginas.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <title>DeyseNascimento</title>
+</head>
+<body>
+    <header class="header1"> 
+        <div class="container">
+            <div class="logo">
+                <a href=""><img onclick="slid1()" src="./images/MARCA DÃ-GUA 01.png"/></a>
+                
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="home"><a href="">HOME</a></li>
+                        <li><a onclick="profissionais()"href="" >PROFISSIONAIS</a></li>
+                        <li><a onclick="especialidades()" href="" >ESPECIALIDADES</a></li>
+                        <li><a onclick="noticias()"href="">NOTICIAS</a></li>
+                        <li><a onclick="contatos()"href="">CONTATOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+    </header>
+
+
+    <header class="header2">
+        <div class="header"></div>
+            <div class="slider">
+                <div class="slider--controls">
+                    <div class="slider--control" onclick="goPrev()" ></div>
+                    <div class="slider--control" onclick="goNext()"></div>
+
+                </div>
+                    <div class="slider--width">
+                        <div class="slider--item" style="background-image: url('./images/fisioterapia-pediatrica-e-neonatal.jpg');">
+                            <h6>FISIOTERAPIA NA SAÚDE DA<br>CRIANÇA E ADOLESCENTE</h6>
+                        </div>
+                        <div class="slider--item" style="background-image: url('./images/FISIO-TERCEIRA-IDADE.png')">
+                            <h6>FISIOTERAPIA NA SAÚDE DO IDOSO</h6>
+                        </div>
+                        <div class="slider--item" style="background-image: url('./images/FisioCardio-.jpg')">
+                            <h6>FISIOTERAPIA CARDIORESPIRATÓRIA</h6>
+                        </div>
+                        <div class="slider--item" style="background-image: url('./images/fisio_Orto.png')">
+                            <h6>FISIOTERAPIA TRAUMATO-ORTOPÉDIA</h6>
+                            
+                        </div>
+
+                    </div>
+            </div>
+    </header>
+
+   
+            
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Experiência de alto nível</h1>
+                <h2>Venha conhecer nossas instalações ou agende sua consulta.</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Nossas Especialidades</div>
+                    <div class="banner_desc">Atendimento com profissionais de alto nível</div>
+                    <a onclick="saiba1()" href="">Saiba Mais</a>
+                </div> 
+                <div class="banner2">
+                    <div class="banner_title">Horários de Atendimento</div>
+                    <div class="banner_desc">Conheça nossos horários de atendimento clicando abaixo.</div>
+                    <a onclick="saiba2()"href="">Saiba Mais</a>
+                </div> 
+                <div class="banner3">
+                    <div class="banner_title">Agende sua Avaliação.</div>
+                    <h3>E venha conhecer nossas instalações com os melhores preços em consultas e Exames</h3>
+                </div> 
+               
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">CONTEUDO A SER DEFINIDO</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                                <div class="news_thumbnail">
+                                    <img src="./images/medico.jpg" onclick="noticias()"/>
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Does your prose lack a pulse? Are your linking verbs on life support?
+
+                                    Quick, call Text Medic!
+
+                                    Whether it’s a big project or small, careful editing will help you connect with your intended audience. Text Medic can help you achieve clarity and simplicity in your message.
+                            </div>
+                        </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                    <div class="news_data">
+                                        
+                                    </div>
+                                    <div class="news_thumbnail">
+    
+                                        <img src="./images/medico.jpg"/>
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        Does your prose lack a pulse? Are your linking verbs on life support?
+    
+                                        Quick, call Text Medic!
+    
+                                        Whether it’s a big project or small, careful editing will help you connect with your intended audience. Text Medic can help you achieve clarity and simplicity in your message.
+                                </div>
+                            </a>
+                            </article>
+                          
+    <footer>
+        <div class="container flex column">
+            <div class="footer_menu">
+                          
+                
+            <div class="footer_copy">
+                Copyright  - Todos os direitos reservados
+            </div>
+        </div>
+        </footer>
+
+
+       <script src="script.js"></script>
+       <script src="slider.js"></script>
+ 
+ </body>
+ 
+</html>

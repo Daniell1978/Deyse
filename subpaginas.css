@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.contato{
+    background-color: #4e803b;
+    color: white;
+    height: 72px;
+    align-items: center;
+    padding: 1px;
+   
+}
+
+.links{
+    display: flex;
+    height: 458px;
+    justify-content: center;
+    background-color: rgb(184, 206, 156);
+    padding: 5px;
+}
+.espec{
+    background-color: rgb(184, 206, 156);
+    
+}
+.fisio_neuro{
+    height: 100%;
+    font-size: 40px;
+    color: rgb(31, 128, 12);
+    text-align:left;
+    margin-left: 20px;
+}
+.fisio_neuro div{
+    text-align: center;
+    padding: 8px;
+}
+.fisio_neuro img{
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 2px solid rgb(31, 128, 12);
+}
+h1{
+    text-align: center;
+}
+.icones a, p {
+    margin-left: 6px;
+    font-size: 18px;
+}
