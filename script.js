@@ -44,7 +44,9 @@ function saiba1(){
 function saiba2(){
     minhajanela = window.open("horarios.html");
 }
-
+function home(){
+    minhajanela = window.open("index.html");
+}
 function especialidades(){
     minhajanela = window.open("espec.html");
 }
