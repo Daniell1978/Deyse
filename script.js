@@ -37,32 +37,9 @@ function updateMargin(){
 setInterval(goNext,4000);
 
 
-
-function saiba1(){
-    minhajanela = window.open("espec.html");
-}
-function saiba2(){
-    minhajanela = window.open("horarios.html");
-}
-function home(){
-    minhajanela = window.open("index.html");
-}
-function especialidades(){
-    minhajanela = window.open("espec.html");
-}
-
-function profissionais(){
-    minhajanela = window.open("prof.html");
-}
-
 function noticias(){
-    minhajanela = window.open("https://www.coffito.gov.br/nsite/");
+    notic = window.open("https://www.coffito.gov.br/nsite/");
 }
-function contatos(){
-    minhajanela =window.open("contato.html");
+function logo(){
+    
 }
-function agendar(){
-    minhajanela = window.open("agenda.html");
-}
-
-
