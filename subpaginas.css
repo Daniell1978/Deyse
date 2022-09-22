@@ -8,15 +8,6 @@ body {
    
 }
 
-.contato, .profissionais{
-    background-color: #4e803b;
-    color: white;
-    height: 72px;
-    align-items: center;
-    padding: 1px;
-   
-}
-
 .links{
     display: flex;
     height: 180px;
@@ -52,29 +43,56 @@ background-color: rgb(184, 206, 156);
 }
 .fisio_neuro{
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-gap: 10px;
-    margin-left: 40px;
-    margin-top: 5px;
+    grid-template-columns: 370px 280px 370px 280px;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-left: 90px;
+    margin-top: 50px;
+    max-width: 1360px;
     
 }
+.espec{
+    background-color: #78ac64;
+}
 .item1{
-    background-color: rgb(128, 177, 134); 
+
+    background-color: #4e803b;
     border-radius: 10px;
-    padding: 10px;
-    color: white;
-    font-size: 20px;
+    padding-right: 0px;
+    padding-top: 30px;
+    color: rgb(22, 21, 21);
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item2{
+    background-color: rgb(211, 229, 188);
+    box-shadow: rgb(243 243 245) 2px 2px 8px;
+    border-radius: 10px;
+    padding-right: 0px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
 }
 .item1 img{
-    align-items: center;
-    margin-top: 8px;
-    margin-left: 18px;
-    width: 250px;
+    border: 1px solid #4e803b;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
    
 }
 .item2 h4{
-    font-size: 14px;
-    margin-right: 12px;
+    text-align: justify;
+    margin-right: 18px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: rgb(88, 80, 68);
+    font-family: 'Times New Roman', Times, serif
+       
 }
 h4{
     margin-left: 2px;
@@ -83,3 +101,49 @@ h4{
 .item3 img{
     width: 250px;
 }
+.horario, .profissionais {
+    background-color: rgb(184, 206, 156);
+    margin-top: 6px;
+}
+.horario h2, h4{
+    margin-top: 8px;
+    text-align: center;
+}
+.dias h4{
+    color: rgb(10, 68, 24);
+    padding-top: 0px;
+
+}
+.dias{
+    padding: 20px;
+  
+}
+.horario h2{
+    margin-bottom: 0%;
+}
+.profissional h1{
+    background-color: #4e803b;
+    
+}
+.contato, .profissional{
+    background-color: #4e803b;
+    color: white;
+    height: 72px;
+    align-items: center;
+    padding: 1px;
+   
+}
+.profissionais h2{
+    margin-top: 2px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.profissionais h4{
+    margin-top: 0px;
+}
+.profissionais{
+    height: 585px;
+   
+}
+

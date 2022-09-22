@@ -30,13 +30,16 @@ body {
     width: 800px;
     height: 480px;
     overflow: hidden;
+    border-radius: 6px;
+    box-shadow: rgb(243 243 245) 2px 2px 2px;
    
 }  
 
 .slider--width{
     height: 100%;
     display: flex;
-    transition: all ease 0.3s;
+    transition: all ease 0.5s;
+   
 }
 .slider--item{
     width: 100vw;
@@ -161,11 +164,11 @@ nav a:hover {
     padding: 20px;
 }
 .banner1 {
-    background-color: rgb(110, 187, 94);
+    background-color: rgb(85, 151, 72);
     border-radius: 5px;
     margin: 2px;
-
 }
+
 .banner2 {
     background-color: rgb(64, 99, 57);
     border-radius: 5px;
@@ -185,6 +188,10 @@ nav a:hover {
 .banner_title {
     font-size: 27px;
     
+}
+.banner3 h4{
+    padding-top: 10px;
+    font-size: 15px;
 }
 .banner_desc {
     font-size: 12px;
@@ -264,7 +271,8 @@ article .news_thumbnail {
 }
 article .news_thumbnail img{
     width: 100%;
-    height: auto;
+    height: 250px;
+    border-radius: 6px;
 }
 article .news_title {
     margin-top: 25px;
@@ -277,11 +285,12 @@ article .news_resume {
     line-height: 20px;
     color: #5c5c5c;
     margin-bottom: 12px;
+    text-align: justify;
 }
 .whatsapp-link{
     position: fixed;
-    width: 45px;
-    height: 45px;
+    width: 1.75em;
+    height: 1.75em;
     bottom: 40px;
     right: 40px;
     background-color: #25d366;
