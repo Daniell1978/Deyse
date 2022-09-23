@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="subpaginas.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    
     
     <title>DeyseNascimento</title>
 </head>
 <body>
-    <header class="header1"> 
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5583986631668" target="_blank">
+        <i class="fa fa-whatsapp"></i></a>
+    
+        <header class="header1"> 
         <div class="container">
             <div class="logo">
-                <a href=""><img onclick="slid1()" src="./images/MARCA DÃ-GUA 01.png"/></a>
+                <a href=""><img src="./images/MARCA DÃ-GUA 01.png"></a>
                 
             </div>
             <div class="menu">
@@ -27,6 +28,7 @@
                         <li><a href="prof.html" >PROFISSIONAIS</a></li>
                         <li><a href="espec.html" >ESPECIALIDADES</a></li>
                         <li><a onclick="noticias()" href="">NOTICIAS</a></li>
+                        <li><a href="fotos.html">GALERIA</a></li>
                         <li><a href="contato.html">CONTATOS</a></li>
                     </ul>
                 </nav>
@@ -34,94 +36,133 @@
 
     </header>
 
-    <div class="contato">
-        <h1>VOCÊ CONHECE NOSSAS ESPECIALIDADES?</h1>
-
-    </div>
-    <section class="espec">
-   
-        <div class="fisio_neuro">
-
-                
-                <div class="item1">Fisioterapia na Saúde <br>da Criança e do Adolescente
-                <img src="./images/fisioCrianca.jpg"></div>
-                            
-                                 
-                <div class="item2">
-                    <h4>&nbsp;&nbsp;&nbsp;<strong>A Fisioterapia para Crianças ou Fisioterapia Pediátrica,</strong> tem como objectivos principais tratar disfunções, recuperar movimentos, tratamentos neurológicos, problemas respiratórios, recuperar lesões ortopédicas, através de técnicas específicas para bebés e crianças.<br>
-
-                        &nbsp;&nbsp;&nbsp;Que casos neurológicos?
-                        A Fisioterapia para crianças está assim indicada em casos neurológicos como:
-                        
-                        - A Paralisia Cerebral;
-                        - Problemas no sistema respiratório como bronquiolite;
-                        - Em casos ortopédicos como as fraturas.</h4>
-                </div>
-                <div class="item1">Fisioterapia na Saúde do Idoso
-                    <img src="./images/fisioIdosio.webp"></div>
-                                
-                                     
-                    <div class="item2">
-                        <h4>&nbsp;&nbsp;&nbsp;Os pacientes idosos estão sendo os mais afetados pela pandemia do novo corona vírus, o COVID 19. A fragilidade na saúde desse público que geralmente tem doenças associadas é o principal motivo se serem mais vulneráveis as doenças infectocontagiosas. Dentre as doenças comuns nos idosos que é negligenciada, e que afeta fortemente sua saúde e qualidade de vida, é a anemia por deficiência de ferro.</h4>
-                    </div>
-                    <div class="item1">Fisioterapia na <br>Saúde do Trabalhador
-                        <img src="./images/fisioTrab.jpeg"></div>
-                                    
-                                         
-                        <div class="item2">
-                            <h4>&nbsp;&nbsp;&nbsp; Fisioterapia do Trabalho tem como foco o bem-estar, a qualidade de vida e melhoria da saúde do trabalhador. Esses pontos refletem e influem em todas as áreas e hierarquias do ambiente do trabalho, desde o profissional atuante na produção até aquele que trabalha na alta administração.<br>&nbsp;&nbsp;&nbsp;Para algumas pessoas, o ambiente de trabalho acaba sendo um local de pouco conforto e muito desgaste emocional e físico, o que pode ocasionar problemas físicos e mentais aos trabalhadores e prejudicar a vida pessoal e profissional. </h4>
+  
+                <section id="geral">
+                    <div class="container">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">NOSSAS ESPECIALIDADES</div>
+                            <div class="widget_title_bar"></div>
                         </div>
-                        <div class="item1">Fisioterapia Cardiorespiratória
-                            <img src="./images/fisioCardio.jpeg"></div>
-                                        
-                                             
-                            <div class="item2">
-                                <h4>&nbsp;&nbsp;&nbsp;A Fisioterapia cardiorrespiratória tem como objetivo melhorar a condição cardiopulmonar, física, mental e social, proporcionando uma vida ativa e produtiva para os pacientes portadores de cardiopatias e/ou doenças respiratórias. Os Fisioterapeutas elaboram programas de exercícios visando melhorar a capacidade aeróbica, a função cardiovascular e pulmonar desses indivíduos. Além disso, supervisionam individualmente cada paciente durante realização das atividades e monitoram seus dados vitais. </h4>
-                            </div>
-                            <div class="item1">Fisioterapia Traumato-Ortopédica
-                                <img src="./images/fisioTrauma.jpg"></div>
-                                            
-                                                 
-                                <div class="item2">
-                                    <h4>&nbsp;&nbsp;&nbsp;A Fisioterapia é uma das áreas da saúde em constante expansão e com demanda de profissionais qualificados no mercado de trabalho e um dos fatores que acarretam essa crescente procura são os atuais hábitos de vida da população.
-
-                                        &nbsp;&nbsp;&nbsp;A sociedade contemporânea estabelece um ritmo acelerado às pessoas, que vivem em uma constante corrida contra o tempo. Dessa forma, a todo o momento, há um desafio a ser superado. Nessa rotina permanente, em que a população encontra poucos intervalos para o descanso e práticas esportivas, a qualidade de vida, muitas vezes, é colocada em segundo plano, uma decisão que pode vir a comprometer a saúde e permitir o surgimento de novas doenças.</h4>
+                        <div class="widget_body flex">
+                            <article>
+                                    <div class="news_thumbnail">
+                                        <img src="./images/fisioterapia-pediatrica-e-neonatal.jpg"/>
+                                    </div>
+                                    <div class="name">
+                                        Fisioterapia da Criança e do Adolescente
+                                        <div class="widget_title_bar"></div>
+                                    </div>
+                                    <div class="funcao">
+                                        <h6>A Fisioterapia para Crianças ou Fisioterapia Pediátrica,tem como objectivos principais tratar disfunções, recuperar movimentos, tratamentos neurológicos, problemas respiratórios, recuperar lesões ortopédicas, através de técnicas específicas para bebés e crianças<br>
+                                            Que casos neurológicos?<br>
+                                        A Fisioterapia para crianças está assim indicada em casos neurológicos como:<br>
+                                        - A Paralisia Cerebral;<br>
+                                        - Problemas no sistema respiratório como bronquiolite;<br>
+                                        - Em casos ortopédicos como as fraturas<br>
+                                        </h6> 
+                                    </div>
+                            
+                            </article>
+                            <article>
+                                <div class="news_thumbnail">
+                                    <img src="./images/fisioIdosio.webp"/>
                                 </div>
-                                <div class="item1">Fisioterapia Reumatológica
-                                    <img src="./images/reuma.jpeg"></div>
-                                                
-                                                     
-                                    <div class="item2">
-                                        <h4>&nbsp;&nbsp;&nbsp;A fisioterapia em reumatologia é uma área de atuação que busca promover a qualidade de vida e a promoção da saúde em indivíduos com doenças reumáticas.
+                                <div class="name">
+                                    Fisioterapia na Saúde do Idoso
+                                    <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="funcao">
+                                    <h6>Os pacientes idosos estão sendo os mais afetados pela pandemia do novo corona vírus, o COVID 19. A fragilidade na saúde desse público que geralmente tem doenças associadas é o principal motivo se serem mais vulneráveis as doenças infectocontagiosas. Dentre as doenças comuns nos idosos que é negligenciada, e que afeta fortemente sua saúde e qualidade de vida, é a anemia por deficiência de ferro.</h6>
+                                </div>                  
+                            </div>
+                        
+                        </article>
+                </section>
+                <section id="geral">
+                    <div class="container">
+                    <div class="widget">
+                       
+                        <div class="widget_body flex">
+                            <article>
+                                    <div class="news_thumbnail">
+                                        <img src="./images/fisioTrab.jpeg"/>
+                                    </div>
+                                    <div class="name">
+                                        Fisioterapia na Saúde do Trabalhador
+                                        <div class="widget_title_bar"></div>
+                                    </div>
+                                    <div class="funcao">
+                                        <h6>&nbsp;&nbsp;&nbsp; Fisioterapia do Trabalho tem como foco o bem-estar, a qualidade de vida e melhoria da saúde do trabalhador. Esses pontos refletem e influem em todas as áreas e hierarquias do ambiente do trabalho, desde o profissional atuante na produção até aquele que trabalha na alta administração.<br>&nbsp;&nbsp;&nbsp;Para algumas pessoas, o ambiente de trabalho acaba sendo um local de pouco conforto e muito desgaste emocional e físico, o que pode ocasionar problemas físicos e mentais aos trabalhadores e prejudicar a vida pessoal e profissional.
+                                        </h6> 
+                                    </div>
+                            
+                            </article>
+                            <article>
+                                <div class="news_thumbnail">
+                                    <img src="./images/FisioCardio-.jpg"/>
+                                </div>
+                                <div class="name">
+                                    Fisioterapia Cardiorespiratória
+                                    <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="funcao">
+                                    <h6>&nbsp;&nbsp;&nbsp;A Fisioterapia cardiorrespiratória tem como objetivo melhorar a condição cardiopulmonar, física, mental e social, proporcionando uma vida ativa e produtiva para os pacientes portadores de cardiopatias e/ou doenças respiratórias. Os Fisioterapeutas elaboram programas de exercícios visando melhorar a capacidade aeróbica, a função cardiovascular e pulmonar desses indivíduos. Além disso, supervisionam individualmente cada paciente durante realização das atividades e monitoram seus dados vitais.</h6>
+                                </div>                  
+                            </div>
+                            </article>
+                            
+                </section>
+                <section id="geral">
+                    <div class="container">
+                    <div class="widget">
+                       
+                        <div class="widget_body flex">
+                            <article>
+                                    <div class="news_thumbnail">
+                                        <img src="./images/fisio_Orto.png"/>
+                                    </div>
+                                    <div class="name">
+                                        Fisioterapia Ortopédica
+                                        <div class="widget_title_bar"></div>
+                                    </div>
+                                    <div class="funcao">
+                                        <h6>&nbsp;&nbsp;&nbsp;A Fisioterapia é uma das áreas da saúde em constante expansão e com demanda de profissionais qualificados no mercado de trabalho e um dos fatores que acarretam essa crescente procura são os atuais hábitos de vida da população.
 
-                                            As doenças reumáticas caracterizam-se por manifestações crônicas e degenerativas que geram limitações das atividades de vida diária. Dores, redução dos movimentos articulares, recrutamento neuromuscular inadequado, perda do condicionamento cardiovascular e respiratório, alterações do trofismo da pele, além de transtornos em outros sistemas, fazem parte do conjunto de incapacidades apresentadas por estes indivíduos[1].</h4>
-                                    </div>    
-                                    <div class="item1">Fisioterapia Aquática
-                                        <img src="./images/fisioAqua.jpg"></div>
-                                                    
-                                                         
-                                        <div class="item2">
-                                            <h4>&nbsp;&nbsp;&nbsp;A fisioterapia aquática, como você deve imaginar, trata-se de uma atividade terapêutica realizada em piscinas com a temperatura controlada – em geral a cerca de 35ºC. Ela também é conhecida como “aquaterapia” e “hidroterapia”, e é considerada pelo Conselho Federal de Fisioterapia e Terapia Ocupacional (COFFITO) como uma especialidade da área.</h4>
-                                        </div>    
-                
-                  
-                               
-            
-        </div>
-</section>
+                                            &nbsp;&nbsp;&nbsp;A sociedade contemporânea estabelece um ritmo acelerado às pessoas, que vivem em uma constante corrida contra o tempo. Dessa forma, a todo o momento, há um desafio a ser superado. Nessa rotina permanente, em que a população encontra poucos intervalos para o descanso e práticas esportivas, a qualidade de vida, muitas vezes, é colocada em segundo plano, uma decisão que pode vir a comprometer a saúde e permitir o surgimento de novas doenças.
+                                        </h6> 
+                                    </div>
+                            
+                            </article>
+                            <article>
+                                <div class="news_thumbnail">
+                                    <img src="./images/reuma.jpeg"/>
+                                </div>
+                                <div class="name">
+                                    Fisioterapia Reumática
+                                    <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="funcao">
+                                    <h6>&nbsp;&nbsp;&nbsp;A fisioterapia em reumatologia é uma área de atuação que busca promover a qualidade de vida e a promoção da saúde em indivíduos com doenças reumáticas.
 
+                                        As doenças reumáticas caracterizam-se por manifestações crônicas e degenerativas que geram limitações das atividades de vida diária. Dores, redução dos movimentos articulares, recrutamento neuromuscular inadequado, perda do condicionamento cardiovascular e respiratório, alterações do trofismo da pele, além de transtornos em outros sistemas, fazem parte do conjunto de incapacidades apresentadas por estes indivíduos[</h6>
+                                </div>                  
+                            </div>
+                            </article>
+                </section>           
 
-    <footer>
-        <div class="container flex column">
-            <div class="footer_menu">
-                          
-                
+<footer>
+    <div class="container flex column">
+        <div class="footer_menu">
             <div class="footer_copy">
                 Copyright  - Todos os direitos reservados
             </div>
         </div>
-    </footer>
+</footer>               
+                
+                          
 
+   
     <script src="script.js"></script>
 
 </body>

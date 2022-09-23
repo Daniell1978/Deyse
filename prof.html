@@ -4,23 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="subpaginas.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    
     
     <title>DeyseNascimento</title>
 </head>
 <body>
-
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5583986631668" target="_blank">
+        <i class="fa fa-whatsapp"></i></a>
     
         <header class="header1"> 
-
         <div class="container">
             <div class="logo">
-                <a href=""><img onclick="slid1()" src="./images/MARCA DÃ-GUA 01.png"/></a>
+                <a href=""><img src="./images/MARCA DÃ-GUA 01.png"></a>
                 
             </div>
             <div class="menu">
@@ -30,6 +28,7 @@
                         <li><a href="prof.html" >PROFISSIONAIS</a></li>
                         <li><a href="espec.html" >ESPECIALIDADES</a></li>
                         <li><a onclick="noticias()" href="">NOTICIAS</a></li>
+                        <li><a href="fotos.html">GALERIA</a></li>
                         <li><a href="contato.html">CONTATOS</a></li>
                     </ul>
                 </nav>
@@ -37,24 +36,47 @@
 
     </header>
 
-    
-    <div class="profissional">
-        <h1>NOSSOS PROFISSIONAIS</h1>
-
-    </div>
-    <div class="profissionais">
-        
-                 <h2>Dra. Deyse de Fátima</h2>
-                 <h4>Fisioterapeuta</h4>
-                 <h4>CREFITO: 20147</h4>
-                 <h2>Dr. Luzinaldo Marinho da Silva Júnior</h2>
-                 <h4>Médico</h4>
-                 <h4>CRM: 00200</h4>
-                 
-    </div>
-
-
-
+  
+<section id="geral2">
+    <div class="container2">
+        <div class="widget">
+            <div class="widget_title">
+                <div class="widget_title_text">NOSSOS PROFISSIONAIS</div>
+                <div class="widget_title_bar"></div>
+                </div>
+            <div class="widget_body flex">
+                <article>
+                    <div class="news_thumbnail">
+                        <img src="./images/fisioterapia-pediatrica-e-neonatal.jpg"/>
+                    </div>
+                    <div class="name">
+                    Dra. Deyse de Fátima
+                           <div class="widget_title_bar"></div>
+                    </div>
+                        <div class="funcao">
+                        Fisioterapeuta   
+                        </div>
+                            
+                </article>
+                <article>
+                    <div class="news_thumbnail">
+                        <img src="./images/fisioterapia-pediatrica-e-neonatal.jpg"/>
+                    </div>
+                    <div class="name">
+                    Dr. Luzinaldo Marinho Júnior
+                           <div class="widget_title_bar"></div>
+                    </div>
+                        <div class="funcao">
+                        Médico   
+                        </div>
+                            
+                </article>
+                
+            </div>    
+        </div>        
+    </div>            
+   
+</section>
 <footer>
     <div class="container flex column">
         <div class="footer_menu">
@@ -65,8 +87,9 @@
         </div>
     </div>
 </footer>
+    
 
+    <script src="script.js"></script>
 
-<script src="script.js"></script>
 </body>
 </html>

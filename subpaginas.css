@@ -1,44 +1,64 @@
-* {
-    box-sizing: border-box;
-    font-family: Arial;
-}
-body {
-    margin: 0;
-    padding: 0;
-   
-}
 
-.links{
-    display: flex;
-    height: 180px;
-    justify-content: center;
-    background-color: rgb(184, 206, 156);
+
+
+.contato{
+    display: block;
+    background-color: #aec7ae;
     padding: 5px;
 }
-.espec{
-
+.titulo_contato{
+    margin-left: 400px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title_bar{
+    margin-left: 400px;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(100, 143, 92);
+    border-radius: 5px;;
+    margin-top: 10px;
+}
+section .espec{
+    
     background-color: rgb(184, 206, 156);
     padding: 6px;
     
 }
-
+.widget_title_text {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
 
 h1{
     text-align: center;
 }
-.icones a, p {
+
+.icones p {
+    
+    margin-top: 25px;
     margin-left: 6px;
     font-size: 18px;
 }
+.icones {
+    justify-content: center;
+    display: flex;
+    background-color: #aec7ae
+}
+.icones img{
+    margin-right: 10px;
+}
 
 .maps{
-    margin-top: 1px;
+    margin-top: 5px;
 }
 .mapas{
 display: flex;
 height: 500px;
 justify-content: center;
-background-color: rgb(184, 206, 156);
+background-color: #aec7ae;
 
 }
 .fisio_neuro{
@@ -48,10 +68,11 @@ background-color: rgb(184, 206, 156);
     row-gap: 30px;
     margin-left: 90px;
     margin-top: 50px;
-    max-width: 1360px;
+    max-width: 1200px;
     
 }
 .espec{
+    max-width: 1300px;
     background-color: #78ac64;
 }
 .item1{
@@ -94,6 +115,12 @@ background-color: rgb(184, 206, 156);
     font-family: 'Times New Roman', Times, serif
        
 }
+article .news_thumbnail img{
+    width: 95%;
+    height: 250px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
 h4{
     margin-left: 2px;
     text-align: justify;
@@ -121,29 +148,40 @@ h4{
 .horario h2{
     margin-bottom: 0%;
 }
-.profissional h1{
-    background-color: #4e803b;
+
+#geral2 {
+    height: 662px;
+    display: flex;
+    justify-content: center;
+    background-color: #aec7ae;
+    
     
 }
-.contato, .profissional{
-    background-color: #4e803b;
-    color: white;
-    height: 72px;
-    align-items: center;
-    padding: 1px;
-   
-}
-.profissionais h2{
-    margin-top: 2px;
+
+.funcao{
+    
     text-align: center;
-    padding-top: 40px;
-
+    font-size: 30px;
+    color: rgb(56, 56, 4);
 }
-.profissionais h4{
-    margin-top: 0px;
+.name{
+    margin-top: 30px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(56, 56, 4);
 }
-.profissionais{
-    height: 585px;
-   
+.name2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(56, 56, 4);
 }
-
+h6{
+    padding-right: 40px;
+    font-size: 12px;
+    text-align: justify;
+}
+.news_thumbnail img{
+    box-shadow: rgb(243 243 245) 2px 3px 8px;
+}
