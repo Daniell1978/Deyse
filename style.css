@@ -83,7 +83,7 @@ body {
     border-radius: 50%;
 }
 .logo img{
-    width: 60%;
+    width: 50%;
 }
 nav ul, nav li {
     list-style: none;
@@ -96,11 +96,11 @@ nav ul {
 }
 nav a {
     display: block;
-    padding: 10px;
-    margin-left: 6px;
+    padding: 9px;
+    margin-left: 10px;
     text-decoration: none;
-    color: #4e4242;
-    font-size: 20px;
+    color: #181515;
+    font-size: 16px;
     box-sizing: border-box;
     font-weight: bold;
     font-family: 'Rampart One', cursive;
