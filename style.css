@@ -22,7 +22,7 @@ body {
     height: 500px;
     align-items: center;
     border-radius: 5px;
-    background-color: #4e803b;
+    background-image: linear-gradient(114deg, #0e8328, #5deb5d);
 }
 
 .slider{
@@ -103,13 +103,12 @@ nav a {
     font-size: 16px;
     box-sizing: border-box;
     font-weight: bold;
-    font-family: 'Rampart One', cursive;
     box-shadow: 2px 2px 3px rgb(243 243 245);
     
 }
 nav .active a,
 nav a:hover {
-    background-color: rgb(108, 160, 140);
+    background-image: linear-gradient(114deg, #146435, #88dbdb);
     border-radius: 10px;
     color: #ffffff;
 }
